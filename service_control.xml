@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<servers>
+	<server name="se-dmcom-0001">
+		<service>
+			<name>iManageSICSntImporter_Business</name>
+			<svc_startup>disabled</svc_startup>
+		</service>
+		<service>
+			<name>iManageSICSntImporter_ClaimHLL</name>
+			<svc_startup>disabled</svc_startup>
+		</service>
+		<service>
+			<name>iManageSICSntImporter_OR</name>
+			<svc_startup>disabled</svc_startup>
+		</service>
+		<service>
+			<name>iManageSICSntImporter_TA</name>
+			<svc_startup>disabled</svc_startup>
+		</service>
+		<service>
+			<name>imEMSSvc</name>
+			<svc_startup>manual</svc_startup>
+		</service>
+		<service>
+			<name>EmailMgmtSvc</name>
+			<svc_startup>manual</svc_startup>
+		</service>
+		<service>
+			<name>Mailbox Agent</name>
+			<svc_startup>manual</svc_startup>
+		</service>
+		<service>
+			<name>MATRIX Integration</name>
+			<svc_startup>disabled</svc_startup>
+		</service>
+	</server>
+	<server name="se-dmweb-0001">	
+		<service>
+			<name>w3svc</name>
+			<svc_startup>manual</svc_startup>
+		</service>
+	</server>
+	<server name="se-dmflow-0001">
+		<service>
+			<name>LOServer</name>
+			<svc_startup>manual</svc_startup>
+		</service>
+		<service>
+			<name>w3svc</name>
+			<svc_startup>manual</svc_startup>
+		</service>
+	</server>
+	<server name="se-dmfile-0001">
+		<service>
+			<name>imFileShare</name>
+			<svc_startup>manual</svc_startup>
+		</service>
+	</server>
+</servers>
